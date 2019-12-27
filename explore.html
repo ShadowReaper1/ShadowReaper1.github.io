@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zoom Slider</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/feather/style.css">
+	<!-- General demo styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<script src="assets/js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/anime.png"/>
+							<div class="zoomer__area zoomer__area--size-2">
+							</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Anime!</span>Something for everyone.</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/animals.png"/>
+							<div class="zoomer__area zoomer__area--size-4"></div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Animals!</span>Cute, Majestic and Breathtaking.</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/more.png" alt="Know More" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>More?</span>Of course there is.</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/dev.png" alt="Programming and Developing" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Programmer and Developer</span>A world where anything is possible.</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/music.png" alt="Apple Watch" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Music!</span>Everyone loves it.</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next</span></button>
+			</nav>
+		</section>
+
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/anime-contain.gif" alt="Anime content" />
+				<div class="content__item-inner">
+					<h2>Welcome to the world of Anime's.</h2>
+					<h3>Where there is something for everyone.</h3>
+					<p>As a kid you probably have already seen shows like Dragon ball, Avatar, Detective Conan, Naruto, Inazuma Eleven, Shinchan, Doraemon and etc. Anime's comes in all shapes and sizes meaning not everyone will like the same thing but there is always something for everyone. This genre is packed with Action-packed adventures, offbeat comedies, inspirational stories, from beatiful and magical animation to the most outrageous and ridiculous plots and stories. So take your pick relax and enjoy.</p>
+					<p><a href="https://myanimelist.net/animelist/raman4183">Checkout my ever growing Anime list &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/animals-contain.png" alt="Animals Content" />
+				<div class="content__item-inner">
+					<h2>But why Animals?</h2>
+					<h3>Because why not?</h3>
+					<p>This picture you are currently seeing was my Doggo and after being with us through thick and thin for over 14 years he passed away on 21/09/2018. Actually i tried to describe what i feel about these guys and i was not able to do that. I tried writing then erased it right away and kept doing it for an hour and came to a conclusion that i cannot so just enjoy the gallery of my Doggo's and other animals pictures.</p>
+					<p><a href="#">Checkout out the gallery &xrarr;</a></p>
+					<p><a href="https://www.nationalgeographic.com/animals/">Learn more about animals &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/more-contain.png" alt="Know more" />
+				<div class="content__item-inner">
+					<h2>Motto Motto stuff!</h2>
+					<h3>Here are some things that aren't my primary focus but still i like them.</h3>
+					<p>This section is still unfinished, will complete it later and add stuff in it.</p>
+					<p><a href="https://downloadmoreram.com/download.html">Click here to download more ram &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/dev-contain.png" alt="Programmer and Developer" />
+				<div class="content__item-inner">
+					<h2>Developing and Programming</h2>
+					<h3>A passion of mine</h3>
+					<p>Ever since i was a kid i was fascinated by the softwares and their working method and wondered how people were able to do amazing things by using workarounds and little hacks to do things that were not meant to be able to run on some hardware like about 10-12 years ago after the release of DirectX 9 release they introduced Pixel Shader 2.0 and at that time my pc was 5 years older than that, no way it had the ability to run something that advanced but then one day i found a dll online that lets you play Pixel Shader 2.0 games so i decided to try it on PCSX2(A playstation 2 emulator for pc.) well guess what? it worked and i was amazed. Although my pc could'nt handle it all and ran games at like 2-9fps and still being the way i am i played Dragon Ball Infinite World and other games. Well that is one of the many stories that lead me to this path. I am inactive from mid 2018 and been that way ever since because of some personal reasons but before that i used to develop roms and kernel for my devices. I will return in 2020 and start doing various stuffs again and make up for the time i've lost. I already have various ideas for projects and interesting things ;)</p>
+					<p><a href="https://github.com/ShadowReaper1">Checkout my github profile and projects &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/music-contain.png" alt="Music" />
+				<div class="content__item-inner">
+					<h2>Music</h2>
+					<h3>Something that touches and connects everyone</h3>
+					<p>They say that you can tell about the personality of someone by looking at their music library or playlist well if those people look at my playlist they might say that i have multiple personality disorder xD. In my honest opinion such things like language and origin does not matter if music sooths your heart, calms your mindd, touches your emotions and fills you with energy. All you can do is enjoy your life to the fullest and be happy.</p>
+					<p><a href="https://open.spotify.com/playlist/3k8n7ciRy3lHBFizsxliQp?si=ZwDi0JOJT2CY_vW8TmMpfg">Click here to check my Playlist on Spotify &xrarr;</a></p>
+					<p><a href="https://music.apple.com/in/playlist/public/pl.u-aZb0NoxF12p6JDJ">Click here to check my Playlist on Apple Music &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="assets/js/classie.js"></script>
+	<script src="assets/js/dynamics.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
